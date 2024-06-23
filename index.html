@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Главная</title>
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <header>
@@ -14,17 +16,20 @@
             <a href="" class="navbar-logo"></a>
             <p class="navbar-left-text">Загородное домостроение - строительство домов и бань</p>
         </div>
+
         <div class="navbar-right df">
             <p class="navbar-working-time">Ежедневно 10:00 – 19:00</p>
             <a class="navbar-tel" href="tel:+7 (495) 989-21-03">+7 (495) 989-21-03</a>
             <a class="navbar-whatsapp" href="">Написать в WhatsApp</a>
-            <form action="">
+            <form action="" class="df">
                 <input type="text" class="call-input dn">
                 <button class="btn-clear btn btn-gray btn-call">заказать звонок</button>
             </form>
+
         </div>
+
     </div>
-    <nav class="df a-center">
+    <nav class="df a-center j-spc-btw">
         <ul class="header-menu df a-center">
             <li class="header-menu-item menu-catalog">
                 <a href="" class="header-menu-link">Каталог проектов</a>
@@ -50,12 +55,23 @@
 
         </ul>
 
-        <form action="">
+        <form action="" class="df pr a-center">
             <input type="text" class="search" placeholder="Каркасные дома">
             <button class="search-btn btn-clear"></button>
         </form>
 
     </nav>
+    <div class="mobile-header dn">
+        <a href="" class="header-logo"></a>
+        <div class="mobile-header-right">
+            <form action="" class="df pr a-center">
+                <input type="text" class="search dn" placeholder="Каркасные дома">
+                <button class="search-btn btn-clear"></button>
+                <button class="dn close-search"></button>
+            </form>
+            <button class="btn-clear burger-btn"></button>
+        </div>
+    </div>
 </header>
 <main>
     <section class="banner owl-carousel owl-theme">
@@ -265,8 +281,127 @@
     <section class="review">
         <div class="content">
             <h2 class="section-title">Отзывы наших довольных клиентов!</h2>
-            <div class="review-list">
-
+            <div class="review-list owl-carousel owl-theme">
+                <div class="review-item">
+                    <div class="review-top df j-spc-btw">
+                        <div class="review-user df">
+                            <div class="review-img">
+                                <img src="images/yandex.png" alt="yandex">
+                            </div>
+                            <div class="review-user-info">
+                                <a href="" class="review-user-link">Яндекс</a>
+                                <p class="review-user-name">Александр</p>
+                                <p class="review-date">Апрель 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-stars df">
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                        </div>
+                    </div>
+                    <div class="review-bottom">
+                        <p>Мне понравился проект перевозной бани, доступный по цене и быстро реализуемый. Оформил заказ, доставку и установку. Место определил для бани на дачном участке. Сотрудники этой компании быстро справились с моей заявкой. Буквально, на днях, подписал акт приемки. Думаю, что в эти выходные опробую новую баню.</p>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-top df j-spc-btw">
+                        <div class="review-user df">
+                            <div class="review-img">
+                                <img src="images/yandex.png" alt="yandex">
+                            </div>
+                            <div class="review-user-info">
+                                <a href="" class="review-user-link">Яндекс</a>
+                                <p class="review-user-name">Александр</p>
+                                <p class="review-date">Апрель 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-stars df">
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                        </div>
+                    </div>
+                    <div class="review-bottom">
+                        <p>Мне понравился проект перевозной бани, доступный по цене и быстро реализуемый. Оформил заказ, доставку и установку. Место определил для бани на дачном участке. Сотрудники этой компании быстро справились с моей заявкой. Буквально, на днях, подписал акт приемки. Думаю, что в эти выходные опробую новую баню.</p>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-top df j-spc-btw">
+                        <div class="review-user df">
+                            <div class="review-img">
+                                <img src="images/yandex.png" alt="yandex">
+                            </div>
+                            <div class="review-user-info">
+                                <a href="" class="review-user-link">Яндекс</a>
+                                <p class="review-user-name">Александр</p>
+                                <p class="review-date">Апрель 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-stars df">
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                        </div>
+                    </div>
+                    <div class="review-bottom">
+                        <p>Мне понравился проект перевозной бани, доступный по цене и быстро реализуемый. Оформил заказ, доставку и установку. Место определил для бани на дачном участке. Сотрудники этой компании быстро справились с моей заявкой. Буквально, на днях, подписал акт приемки. Думаю, что в эти выходные опробую новую баню.</p>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-top df j-spc-btw">
+                        <div class="review-user df">
+                            <div class="review-img">
+                                <img src="images/yandex.png" alt="yandex">
+                            </div>
+                            <div class="review-user-info">
+                                <a href="" class="review-user-link">Яндекс</a>
+                                <p class="review-user-name">Александр</p>
+                                <p class="review-date">Апрель 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-stars df">
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                        </div>
+                    </div>
+                    <div class="review-bottom">
+                        <p>Мне понравился проект перевозной бани, доступный по цене и быстро реализуемый. Оформил заказ, доставку и установку. Место определил для бани на дачном участке. Сотрудники этой компании быстро справились с моей заявкой. Буквально, на днях, подписал акт приемки. Думаю, что в эти выходные опробую новую баню.</p>
+                    </div>
+                </div>
+                <div class="review-item">
+                    <div class="review-top df j-spc-btw">
+                        <div class="review-user df">
+                            <div class="review-img">
+                                <img src="images/yandex.png" alt="yandex">
+                            </div>
+                            <div class="review-user-info">
+                                <a href="" class="review-user-link">Яндекс</a>
+                                <p class="review-user-name">Александр</p>
+                                <p class="review-date">Апрель 2024</p>
+                            </div>
+                        </div>
+                        <div class="review-stars df">
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                            <span class="star-full"></span>
+                        </div>
+                    </div>
+                    <div class="review-bottom">
+                        <p>Мне понравился проект перевозной бани, доступный по цене и быстро реализуемый. Оформил заказ, доставку и установку. Место определил для бани на дачном участке. Сотрудники этой компании быстро справились с моей заявкой. Буквально, на днях, подписал акт приемки. Думаю, что в эти выходные опробую новую баню.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

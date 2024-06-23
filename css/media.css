@@ -1,0 +1,343 @@
+@media screen and (max-width: 1600px){
+    header{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .header-menu-item:first-child a{
+        word-break: break-word;
+        padding-right: 20px;
+    }
+    .banner-item {
+        padding-bottom: 160px;
+    }
+    .banner-title{
+        max-width: 1100px;
+    }
+    .what-we-do{
+        padding: 0 50px;
+    }
+    .top-sales{
+        padding: 0 50px;
+    }
+    .see-more{
+        width: 80%;
+    }
+    .work-with-us{
+        padding: 0 50px;
+
+    }
+    .review{
+        padding: 0 50px;
+
+    }
+    .why-us{
+        padding: 0 50px;
+
+    }
+    .blog{
+        padding: 0 50px;
+
+    }
+    .about{
+        padding-left: 50px;
+    }
+    .credit-section{
+        padding: 0 50px;
+    }
+    footer{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .navbar-whatsapp{
+        margin-right: 30px;
+    }
+    .navbar-tel{
+        margin-right: 30px;
+    }
+    .navbar-working-time{
+        margin-right: 30px;
+    }
+    .top-sale-features{
+        column-gap: 20px;
+    }
+    .credit-info{
+        max-width: 600px;
+        z-index: 1;
+    }
+}
+@media screen and (max-width: 1440px){
+    header{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .header-menu-item:first-child a{
+        word-break: break-word;
+        padding-right: 20px;
+    }
+    .header-menu-link{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .header-menu-item{
+        margin-right: 30px;
+    }
+    .banner-title{
+        max-width: 919px;
+        font-size: 40px;
+    }
+    .what-we-do{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .top-sales{
+        margin-bottom: 100px;
+    }
+    .review{
+        margin-bottom: 100px;
+    }
+    .work-with-us{
+        margin-bottom: 100px;
+    }
+    .leave-request{
+        padding-right: 158px;
+    }
+    .why-us{
+        margin-bottom: 100px;
+    }
+    .blog{
+        margin-bottom: 100px;
+    }
+    .credit:before{
+        width: 400px;
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .credit:after{
+        width: 500px;
+        position: absolute;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .credit-info{
+        font-size: 22px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+    .why-us-item p{
+        max-width: 180px;
+        z-index: 1;
+        position: relative;
+    }
+    .project:before{
+        width: 300px;
+    }
+    .contract:before{
+        width: 300px;
+    }
+    .shipping:before{
+        width: 280px;
+    }
+    .house:before{
+        width: 250px;
+    }
+    .delivery:before{
+        width: 250px;
+    }
+    .work-with-us-info p{
+        max-width: 250px;
+    }
+    .work-with-us-info >div:nth-child(2n) p{
+        max-width: 250px;
+    }
+    .request:before{
+        width: 200px;
+        background-size: contain;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+    .navbar-tel{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .navbar-left-text{
+        font-size: 12px;
+        width: 200px;
+    }
+    .navbar-whatsapp{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .navbar-working-time{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .about-right{
+        width: 50%;
+    }
+    .about-left{
+        width: 50%;
+    }
+    .about-info{
+        gap: 50px;
+    }
+    .leave-request input{
+        width: 250px;
+    }
+    .request-form .btn{
+        width: 250px;
+    }
+    .request-form{
+        gap: 20px;
+    }
+    .why-us-item h4{
+        position: relative;
+        z-index: 1;
+
+    }
+    .review-bottom p{
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .review-stars{
+        gap: 0;
+    }
+}
+@media screen and (max-width: 1320px){
+    .review-stars{
+        align-items: flex-start;
+    }
+    .house-item{
+        width: calc((100% - 40px)/3);
+    }
+    .header-menu-link{
+        font-size: 12px;
+    }
+    .header-menu-item:first-child{
+        width: auto;
+        margin-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+    .navbar-left-text{
+        display:none ;
+    }
+    .navbar-whatsapp{
+        text-indent: -9999px;
+    }
+    .header-menu-item{
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .banner-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-left{
+        padding-left: 50px;
+    }
+    .banner-right{
+        background-size: contain;
+    }
+    .banner-text{
+        max-width: 100%;
+    }
+    .what-we-do{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .work-with-us-info >div{
+        width: calc(100%/2 );
+    }
+    .review{
+        margin-bottom: 50px;
+    }
+    .work-with-us{
+        margin-bottom: 50px;
+    }
+    .leave-request{
+        flex-direction: column;
+    }
+    .request-form{
+        width: 100%;
+        justify-content: center;
+    }
+    .request-right{
+        width: 100%;
+    }
+    .blog-post-list{
+        flex-direction: column;
+    }
+    .about-right{
+        width: 40%;
+        background-size: contain;
+        background-position: right bottom;
+        height: auto;
+    }
+    .about-text{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .section-title{
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 30px!important;
+    }
+    .about-left{
+        width: 60%;
+    }
+    .credit:before{
+        width: 250px;
+    }
+    .credit:after{
+        width: 250px;
+    }
+    .credit-info{
+        font-size: 20px;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .footer-mid{
+        width: 50%;
+    }
+    .mobile-header{
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .mobile-header .header-logo{
+        height: 46px;
+        width: 295px;
+        background: url('../images/Sprite.png');
+        background-position: 0 0;
+    }
+    .burger-btn{
+        width: 22px;
+        height: 22px;
+        background: url('../images/Sprite.png');
+        background-position: -369px -84px;
+        margin-left: auto;
+    }
+    .header-menu, body nav,body nav form,  .navbar-top{
+        display: none!important;
+    }
+    .mobile-header-right{
+        margin-left: auto;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .banner-item{
+        flex-direction: column;
+    }
+}
