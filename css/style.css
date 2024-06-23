@@ -124,7 +124,7 @@ header{
 .navbar-logo{
     width: 295px;
     height: 46px;
-    background: url("../images/sprite.png");
+    background: url("../images/Sprite.png");
     background-position: 0 0;
 }
 .navbar-left{
@@ -164,7 +164,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -356px -25px;
     left: 0;
 }
@@ -185,7 +185,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -385px -25px;
     left: 0;
 }
@@ -206,7 +206,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -414px -25px;
     left:0;
 }
@@ -248,7 +248,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -326px -25px;
     left:18px;
 }
@@ -361,7 +361,7 @@ header{
 }
 .owl-carousel .owl-nav button.owl-prev span{
     text-indent: -99999px;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -237px -101px;
     width: 18px;
     height: 28px;
@@ -375,7 +375,7 @@ header{
 }
 .owl-carousel .owl-nav button.owl-next span{
     text-indent: -99999px;
-    background: url('../images/sprite.png');
+    background: url('../images/Sprite.png');
     background-position: -252px -101px;
     width: 18px;
     height: 28px;
