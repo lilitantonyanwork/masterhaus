@@ -1250,3 +1250,306 @@ footer{
 .pr{
     position: relative;
 }
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #83CB2F;
+}
+.contacts{
+    padding: 0 130px;
+    position: relative;
+}
+.contacts:before{
+    content: '';
+    background: url('../images/contact-tree-left.png');
+    width: 159px;
+    height: 666px;
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+}
+.breadcrumbs{
+    gap: 5px;
+    margin-bottom: 12px;
+}
+.breadcrumbs-item a, .breadcrumbs-item{
+    color: #909090;
+    font-size: 14px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.contacts .section-title{
+    margin-bottom: 37px;
+}
+.contact-left{
+    max-width: 868px;
+}
+.contact-left p{
+    font-size: 17px;
+    line-height: 27px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    margin-bottom: 10px;
+}
+.contact-right{
+    width: 538px;
+    height: 549px;
+    padding: 41px 60px 60px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px #c4c4c447;
+    position: relative;
+    overflow: hidden;
+}
+.contact-right:before{
+    content: '';
+    background: url('../images/contact-leaf.png');
+    width: 168px;
+    height: 107px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.contact-right:after{
+    content: '';
+    background: url('../images/contact-tree.png');
+    width: 336px;
+    height: 123px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.contact-form-title{
+    font-size: 28px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+    margin-bottom: 34px;
+    position: relative;
+}
+.contact-form-title:before{
+    content: '';
+    background: url('../images/birds.png');
+    width: 119px;
+    height: 57px;
+    position: absolute;
+    right: -40px;
+}
+.contacts-form label{
+    color: #909090;
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-family: 'Gilroy-Medium', sans-serif;
+}
+.contacts-form input{
+    height: 70px;
+    padding: 26px 32px;
+    box-sizing: border-box;
+}
+.form-item{
+    margin-bottom: 31px;
+}
+.form-item .btn{
+    height: 77px;
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+
+.form-item p{
+    color: #909090;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Gilroy-Medium', sans-serif;
+    line-height: 16px;
+}
+.contacts-tel{
+    padding-left: 77px;
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.contacts-tel p:first-child{
+    color: #909090;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+.contacts-tel p{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+}
+.contacts-tel:before{
+    content: '';
+    position: absolute;
+    background: url('../images/Sprite.png');
+    background-position: -153px -178px;
+    width: 59px;
+    height: 59px;
+    left: 0;
+}
+.contacts-email{
+    padding-left: 77px;
+    position: relative;
+}
+.contacts-email:before{
+    content: '';
+    position: absolute;
+    background: url('../images/Sprite.png');
+    background-position: -216px -178px;
+    width: 59px;
+    height: 59px;
+    left: 0;
+}
+.contacts-email p:first-child{
+    color: #909090;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 3px;
+}
+.contacts-email p{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+}
+.contacts-map{
+    padding: 0 130px;
+    margin-top: 197px;
+    margin-bottom: 240px;
+    position: relative;
+}
+.contacts-map:before{
+    content: '';
+    background: url("../images/contact-leaf-right.png");
+    background-size: contain;
+    width: 165px;
+    height: 192px;
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+}
+.map-left{
+    padding: 30px;
+    box-shadow: 0 0 10px #c4c4c447;
+    border-radius: 20px;
+}
+.map-left  h4{
+    color: #83CB2F;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+    line-height: 27px;
+}
+.map-left p{
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    line-height: 20px;
+}
+.map-bold{
+    font-family: 'Gilroy-SemiBold', sans-serif;
+    margin-bottom: 14px;
+}
+.map-left img{
+    margin-top: auto;
+
+}
+
+.map-right{
+    padding: 30px;
+    box-shadow: 0 0 10px #c4c4c447;
+    border-radius: 20px;
+}
+.map-right  h4{
+    color: #83CB2F;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+    line-height: 27px;
+}
+.map-right p{
+    font-size: 17px;
+    margin-bottom: 8px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    line-height: 20px;
+}
+
+.map-right img{
+    margin-top: auto;
+}
+.portfolio{
+    padding: 0 130px;
+}
+.portfolio-head{
+    margin-bottom: 50px;
+}
+.portfolio-search{
+    width: 240px;
+    height: 64px;
+}
+.portfolio-search input{
+    width: 100%;
+    height: 100%;
+    padding: 25px 19px 22px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #909090;
+}
+.portfolio-list{
+    gap: 20px;
+    margin-bottom: 45px;
+}
+.portfolio-item{
+    width: calc((100% - 40px) / 3);
+    box-shadow: 0 0 10px #c4c4c447;
+    border-radius: 20px;
+}
+
+.portfolio-item h4{
+    color: #4B4E50;
+    font-size: 16px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+    line-height: 21px;
+    padding-top: 22px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 23px;
+    text-transform: uppercase;
+}
+.pagination{
+    margin-bottom: 130px;
+    gap: 7px;
+}
+.pagination-item{
+    width: 42px;
+    height: 42px;
+    border-radius: 5px;
+    background: #F3F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-item a{
+    font-size: 15px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    color: #4B4E50;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-item:hover a,  .pagination-item-active a{
+    color: #fff;
+}
+.pagination-item:hover, .pagination-item-active{
+    background: #83CB2F;
+}
+.pagination-item-prev a{
+    background: url('../images/Sprite.png');
+    background-position: -315px -117px;
+    width: 8px;
+    height: 16px;
+}
+.pagination-item-next a{
+    background: url('../images/Sprite.png');
+    background-position: -328px -116px;
+    width: 9px;
+    height: 17px;
+}

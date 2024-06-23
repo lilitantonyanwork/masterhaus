@@ -64,6 +64,9 @@
         max-width: 600px;
         z-index: 1;
     }
+    .contacts{
+        padding: 0 50px;
+    }
 }
 @media screen and (max-width: 1440px){
     header{
@@ -339,5 +342,388 @@
 
     .banner-item{
         flex-direction: column;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .banner-left{
+        padding-right: 50px;
+    }
+    .banner-right{
+        height: 436px;
+        background-size: contain;
+        background-position: right bottom;
+    }
+    .mobile-header p{
+        color: #4B4E50;
+        font-family: 'Gilroy-SemiBold', sans-serif;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .mobile-header a{
+        color: #F25722;
+        text-decoration: underline;
+        font-family: 'Gilroy-SemiBold', sans-serif;
+        font-size: 11px;
+    }
+    .mobile-contact{
+        justify-content: flex-start;
+        margin-left: 15px;
+    }
+    .mobile-header .search-btn{
+        position: relative;
+        right: 0;
+    }
+    .img-bg:before{
+        height: 128px;
+    }
+}
+@media screen and (max-width: 900px){
+    .house-item {
+        width: calc((100% - 20px) / 2);
+    }
+    .shipping:before {
+        width: 150px;
+    }
+    .project:before {
+        width: 200px;
+    }
+    .contract:before {
+        width: 200px;
+    }
+    .house:before {
+        width: 200px;
+    }
+    .request:before{
+        width: 150px;
+    }
+    .request .btn{
+        width: 200px;
+    }
+    .why-us-item{
+        width: calc((100% - 20px) / 2);
+    }
+    .credit{
+        height: auto;
+        padding-top: 25px;
+    }
+    .credit-info{
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header {
+        padding-right: 21px;
+        padding-left: 21px;
+    }
+    .mobile-header .header-logo{
+        width: 142px;
+        height: 22px;
+        background-position: -298px 0;
+    }
+    .banner-title{
+        font-size: 23px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .banner-text{
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 18px;
+    }
+    .banner-item .btn{
+        width: 162px;
+        height: 62px;
+        font-size: 11px;
+    }
+    .banner-left{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer-mid{
+        margin-top: 40px;
+    }
+    .what-we-do {
+        padding: 0 20px;
+    }
+    .review, .top-sales,.top-sales, .why-us, .blog,.about, .credit-section,
+    .work-with-us{
+        padding: 0 20px;
+        margin-bottom: 60px;
+    }
+    .work-with-us-info >div {
+        width: 100%;
+        height: 185px;
+        padding: 17px 16px 5px;
+    }
+    .work-with-us-info h4{
+        font-size: 16px;
+    }
+    .work-with-us-info p{
+        font-size: 13px;
+        max-width: 195px
+    }
+    .work-with-us-info >div:nth-child(2n) p{
+        max-width: 195px;
+    }
+    .work-with-us-info >div > span{
+        font-size: 40px;
+
+    }
+    .delivery:before{
+        height: 185px;
+        background-size: contain;
+    }
+    .house:before{
+        height: 185px;
+        background-size: contain;
+
+    }
+    .shipping:before{
+        height: 185px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .contract:before{
+        height: 185px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .work-with-us-info >div.request{
+        height: 406px;
+        align-items:center ;
+        text-align: center;
+    }
+    .request .btn{
+        width: 100%;
+        margin-top: 18px;
+    }
+    .request:before{
+        height: 208px;
+        width: 185px;
+
+        left: auto;
+        right: auto;
+    }
+    .why-us-item {
+        width: 100%;
+    }
+    .work-with-us-info{
+        gap: 20px;
+    }
+    .work-with-us-info >div:nth-child(2n)   {
+        box-shadow:0 0 10px #c4c4c447
+    }
+    .house-item {
+        width: 100%;
+    }
+    .top-sale-feature{
+        width: 50%;
+    }
+    .see-more {
+        width: 305px;
+        font-size: 11px;
+        height: 62px;
+    }
+    .why-us-item h4{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .why-us-item p{
+        font-size: 13px;
+    }
+    .request-title{
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .request-text{
+        font-size: 12px;
+        text-align: center;
+        line-height: 18px;
+    }
+    .leave-request{
+        padding: 25px 15px 77px;
+    }
+    .request-form{
+        flex-direction: column;
+    }
+    .request-form div{
+        width: 100%;
+    }
+    .leave-request input{
+        width: 100%;
+    }
+    .leave-request .btn{
+        width: 100%;
+    }
+    .leave-request:after{
+        height: 134px;
+        width: 134px;
+        position: absolute;
+        right: 0;
+        bottom: -50px;
+    }
+    .leave-request:before{
+        height: 134px;
+        width: 191px;
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        background-repeat: no-repeat;
+
+    }
+    .footer-left{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-mid{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-menu{
+        height: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .address{
+        max-width: 100%;
+        padding-left: 0;
+        padding-top: 40px;
+    }
+    .address:before{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .email{
+        max-width: 100%;
+        padding-left: 0;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    .email:before{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .tel{
+        max-width: 100%;
+        padding-left: 0;
+        padding-top: 40px;
+        text-align: center;
+        justify-content: center;
+    }
+    .tel:before{
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .credit{
+        height: 605px;
+        padding-right: 15px;
+        padding-left: 15px;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+    .credit:before {
+        width: 342px;
+        height: 342px;
+        bottom: 0;
+        left: -70px;
+    }
+    .credit:after {
+        bottom: 0;
+        right: -100px;
+        width: 430px;
+        height: 274px;
+    }
+    .credit .btn{
+        width: 100%;
+        margin-top: 25px;
+        font-size: 11px;
+        height: 62px;
+        padding-right: 24px;
+        padding-left: 24px;
+        white-space: nowrap;
+    }
+    footer{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .about-info{
+        flex-direction: column;
+        gap: 0;
+    }
+    .about-left{
+        width: 100%;
+    }
+    .about-right{
+        width: 100%;
+        height: 349px;
+    }
+    .about{
+        padding-right: 0;
+    }
+    .section-title{
+        font-size: 20px;
+        margin-bottom: 15px!important;
+        line-height: 30px;
+
+    }
+    .blog{
+        display: none;
+    }
+    .why-us-item:nth-child(6):before{
+        width: 171px;
+        height: 123px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item:nth-child(5):before{
+        width: 146px;
+        height: 171px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item:nth-child(4):before{
+        width: 133px;
+        height: 173px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item:nth-child(3):before{
+        width: 176px;
+        height: 158px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item:nth-child(2):before{
+        width: 143px;
+        height: 155px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item:nth-child(1):before{
+        width: 171px;
+        height: 123px;
+        background-size: 100%;
+        top: 0 ;
+    }
+    .why-us-item{
+        height: 173px;
     }
 }

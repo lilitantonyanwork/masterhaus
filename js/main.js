@@ -4,7 +4,17 @@ $(function(){
         margin:10,
         nav:true,
         items: 1,
-        dots: false
+        dots: false,
+        responsive: {
+            1024:{
+                nav:false,
+                dots:true
+            },
+            0:{
+                nav:false,
+                dots:true
+            }
+        }
     })
     $('.top-sale-list').owlCarousel({
         loop:true,
@@ -13,12 +23,23 @@ $(function(){
         items: 4,
         dots: false,
         responsive: {
-            1600: {
+            0:{
+                items:1,
+                nav:false,
+                dots: true
+
+            },
+            700:{
+                items: 1,
+                nav:false,
+                dots: true
+            },
+            900:{
+                items:2,
                 nav:false
             },
-            1440: {
-                nav:false
-            },
+
+
             1300:{
                 items:3,
                 nav:false
@@ -27,11 +48,14 @@ $(function(){
                 items:2,
                 nav:false
             },
-            0:{
-                items:3,
+            1440: {
                 nav:false
+            },
+            1600: {
+                nav:false
+            },
 
-            }
+
         }
     })
     $('.review-list').owlCarousel({
@@ -41,23 +65,34 @@ $(function(){
         items: 3,
         dots: false,
         responsive: {
-            1600: {
-                nav:false
+            0:{
+                items: 1,
+                nav:false,
+                dots: true
+
             },
-            1440: {
-                nav:false
+            700:{
+                items: 1,
+                nav:false,
+                dots: true
             },
-            1300:{
-                items:3,
+            900:{
+                items:2,
                 nav:false
             },
             1024:{
                 items:2,
                 nav:false
             },
-            0:{
+            1300:{
+                items:3,
                 nav:false
-
+            },
+            1440: {
+                nav:false
+            },
+            1600: {
+                nav:false
             }
         }
     })
