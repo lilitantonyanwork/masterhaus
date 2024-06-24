@@ -67,6 +67,18 @@
     .contacts{
         padding: 0 50px;
     }
+    .why-us:before{
+        display: none;
+    }
+    .review:before{
+        display: none;
+    }
+    .work-with-us:before{
+        display: none;
+    }
+    .top-sales:before{
+        display: none;
+    }
 }
 @media screen and (max-width: 1440px){
     header{
@@ -208,6 +220,9 @@
     }
     .review-stars{
         gap: 0;
+    }
+    .about:after{
+        top: -100px;
     }
 }
 @media screen and (max-width: 1320px){
@@ -480,6 +495,80 @@
     }
     .navbar-working-time{
         font-size: 13px;
+    }
+    .burger-btn-close{
+        width: 15px;
+        height: 14px;
+        background: url("../images/Sprite.svg");
+        background-position: -313px -211px;
+        margin-left: auto;
+    }
+    .mobile-header-right form.opened{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        right: 0;
+        background: #fff;
+        padding-right: 24px;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    .mobile-header-right form.opened .search{
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        height: 52px;
+        box-sizing: border-box;
+    }
+    .mobile-header-right form.opened .search-btn{
+        right: 40px;
+    }
+    .mobile-header-right form.opened .close-search{
+        display: block;
+        border:none;
+        width: 15px;
+        height: 14px;
+        background: url("../images/Sprite.svg");
+        background-position: -313px -211px;
+
+    }
+    .dropdown.opened{
+        position: relative;
+        max-width: 100%;
+        top: 0;
+        left: 0;
+        border: none;
+        border-radius: 0;
+        flex-direction: column;
+        height: auto;
+        gap: 28px;
+        padding: 40px 0 23px;
+    }
+    .menu-catalog{
+        flex-direction: column;
+        display: flex;
+    }
+    .dropdown h4{
+        font-size: 12px;
+        margin-top: 14px;
+        margin-bottom: 10px;
+
+
+    }
+    .dropdown ul{
+        height: 100%;
+    }
+    .dropdown li a{
+        font-size: 13px;
+    }
+    .dropdown:last-child h4{
+        margin-top: 0;
+    }
+    .header-menu-item.selected > a{
+        color: #83CB2F!important;
+    }
+    nav.opened .header-menu-item.selected a:before{
+        transform: rotate(180deg);
     }
 }
 @media screen and (max-width: 900px){

@@ -52,27 +52,70 @@
         <ul class="header-menu df a-center">
             <li class="header-menu-item menu-catalog">
                 <a href="" class="header-menu-link">Каталог проектов</a>
+                <div class="dropdown dn">
+                    <div class="dropdown-item">
+                        <h4>Проекты домов</h4>
+                        <ul class="df f-column fw">
+                            <li class=" ">
+                                <a href="" class="">Каркасные дома</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Барнхаус</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Дома из бруса</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Щитовые дома</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Дома для дачи</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Дома площадью до 100 м² </a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Коттеджи из дерева</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Одноэтажные дома</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-item">
+                        <h4>Проекты Бань</h4>
+                        <ul class="df f-column fw">
+                            <li class=" ">
+                                <a href="" class="">Каркасные бани</a>
+                            </li>
+                            <li class=" ">
+                                <a href="" class="">Бани из бруса</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">Акции</a>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">Доставка и оплата</a>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">Отзывы</a>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">Вакансии</a>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">О компании</a>
             </li>
-            <li class="header-menu-item menu-catalog">
+            <li class="header-menu-item ">
                 <a href="" class="header-menu-link">Контакты</a>
             </li>
 
         </ul>
+
 
         <form action="" class="df pr a-center header-search-form">
             <input type="text" class="search" placeholder="Каркасные дома">
@@ -80,6 +123,7 @@
         </form>
 
     </nav>
+
     </div>
 
 </header>
@@ -126,13 +170,14 @@
         </div>
 
     </section>
-    <section class="what-we-do" >
+    <section class="what-we-do pr" >
         <div class="content">
             <h2 class="section-title">Что мы строим?</h2>
             <div class="house-list df f-wrap">
                 <a href="" class="house-item df f-column">
                     <div class="img-bg">
-                        <img src="images/house1.png" alt="">
+                        <img srcset="images/house-1-700w 700w.png,
+                                        images/house1.png 1024w" src="images/house1.png" alt="">
                     </div>
                     <p>Каркасные дома</p>
                 </a>
@@ -168,7 +213,11 @@
             <h2 class="section-title">Лидер продаж</h2>
             <div class="top-sale-list owl-carousel owl-theme">
                 <div class="top-sale-item df f-column">
-                    <img src="images/top-sale.png" alt="">
+                    <img src="images/top-sale.png" srcset="
+    images/top-sale-320w.png 320w,
+   images/top-sale-480w.png 480w,
+   images/top-sale-800w.png 800w
+  " alt="">
                     <h4 class="top-sale-title">Каркасный Престижный</h4>
                     <ul class="top-sale-features df f-wrap j-spc-btw">
                         <li class="top-sale-feature size">Размер: <span>7x9,5</span></li>
@@ -250,7 +299,7 @@
             </div>
         </div>
     </section>
-    <section class="work-with-us">
+    <section class="work-with-us pr">
         <div class="content">
             <h2 class="section-title">Как работать с нами</h2>
             <div class="work-with-us-info df f-wrap">
@@ -288,7 +337,7 @@
             </div>
         </div>
     </section>
-    <section class="review">
+    <section class="review pr">
         <div class="content">
             <h2 class="section-title">Отзывы наших довольных клиентов!</h2>
             <div class="review-list owl-carousel owl-theme">
@@ -413,9 +462,10 @@
                     </div>
                 </div>
             </div>
+            <a href="" class="btn btn-clear btn-green-outline">Больше отзывов</a>
         </div>
     </section>
-    <section class="why-us">
+    <section class="why-us pr">
         <div class="content">
             <h2 class="section-title">Почему выбирают нас</h2>
             <div class="why-us-list df f-wrap ">
@@ -464,8 +514,8 @@
             </div>
         </div>
     </section>
-    <section class="blog">
-        <div class="content df f-column">
+    <section class="blog pr">
+        <div class="content df f-column pr">
             <h2 class="section-title">Полезные статьи</h2>
             <div class="blog-post-list df">
                 <div class="blog-post df">
@@ -492,7 +542,7 @@
             <a href="" class="btn btn-clear btn-green-outline">Читать все статьи</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about pr">
         <div class="content">
 
             <div class="about-info df">

@@ -166,6 +166,7 @@
 <path d="M296.124 223.616C295.21 224.528 293.972 225.04 292.682 225.04C291.391 225.04 290.153 224.528 289.24 223.616L281 215.381V232.417H304.364V215.381L296.124 223.616Z" fill="white"/>
 <path d="M127 208L120 215L113 208" stroke="#83CB2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M113 228L120 221L127 228" stroke="#83CB2F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M326 224L320 218M320 218L314 212M320 218L326 212M320 218L314 224" stroke="#B5B5B5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <defs>
 <filter id="filter0_d_0_155" x="210.923" y="178" width="69.1548" height="74.2322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
