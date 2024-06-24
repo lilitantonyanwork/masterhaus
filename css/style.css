@@ -124,8 +124,7 @@ header{
 .navbar-logo{
     width: 295px;
     height: 46px;
-    background: url("../images/Sprite.png");
-    background-position: 0 0;
+    background: url("../images/logo.svg");
 }
 .navbar-left{
     gap: 35px;
@@ -164,7 +163,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -356px -25px;
     left: 0;
 }
@@ -185,7 +184,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -385px -25px;
     left: 0;
 }
@@ -206,7 +205,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -414px -25px;
     left:0;
 }
@@ -248,7 +247,7 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -326px -25px;
     left:18px;
 }
@@ -361,7 +360,7 @@ header{
 }
 .owl-carousel .owl-nav button.owl-prev span{
     text-indent: -99999px;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -237px -101px;
     width: 18px;
     height: 28px;
@@ -375,7 +374,7 @@ header{
 }
 .owl-carousel .owl-nav button.owl-next span{
     text-indent: -99999px;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -252px -101px;
     width: 18px;
     height: 28px;
@@ -492,7 +491,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -311px -54px;
     left: 0;
 }
@@ -501,7 +500,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -341px -55px;
     left: 0;
 }
@@ -510,7 +509,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -369px -54px;
     left: 0;
 }
@@ -519,7 +518,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -396px -54px;
     left: 0;
 }
@@ -528,7 +527,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -311px -83px;
     left: 0;
 }
@@ -537,7 +536,7 @@ header{
     width: 27px;
     height: 26px;
     position: absolute;
-    background: url("../images/Sprite.png");
+    background: url("../images/Sprite.svg");
     background-position: -340px -84px;
     left: 0;
 }
@@ -1038,7 +1037,7 @@ footer{
 .footer-logo{
     width: 310px;
     height: 48px;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: 0 -49px;
     margin-bottom: 20px;
 }
@@ -1058,7 +1057,7 @@ footer{
 .social-item a{
     width: 100%;
     height: 100%;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     display: flex;
 }
 .social-item a.vk{
@@ -1110,7 +1109,7 @@ footer{
     content: '';
     width: 26px;
     height: 26px;
-    background: url("../images/Sprite.png") no-repeat;
+    background: url("../images/Sprite.svg") no-repeat;
     position: absolute;
     background-position: -280px -178px;
     left: 0;
@@ -1132,7 +1131,7 @@ footer{
     content: '';
     width: 26px;
     height: 26px;
-    background: url("../images/Sprite.png") no-repeat;
+    background: url("../images/Sprite.svg") no-repeat;
     position: absolute;
     background-position: -280px -209px;
     left: 0;
@@ -1153,7 +1152,7 @@ footer{
     content: '';
     width: 26px;
     height: 26px;
-    background: url("../images/Sprite.png") no-repeat;
+    background: url("../images/Sprite.svg") no-repeat;
     position: absolute;
     background-position: -309px -177px;
     left: 0;
@@ -1199,7 +1198,7 @@ footer{
 }
 .review-user-link:before{
     content: '';
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -56px -140px;
     position: absolute;
     right: 0;
@@ -1234,14 +1233,14 @@ footer{
 .star-full{
     width: 27px;
     height: 25px;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -398px -83px;
     display: flex;
 }
 .search-btn{
     width: 16px;
     height: 16px;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -305px -25px;
     display: flex;
     position: absolute;
@@ -1376,7 +1375,7 @@ footer{
 .contacts-tel:before{
     content: '';
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -153px -178px;
     width: 59px;
     height: 59px;
@@ -1389,7 +1388,7 @@ footer{
 .contacts-email:before{
     content: '';
     position: absolute;
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -216px -178px;
     width: 59px;
     height: 59px;
@@ -1542,13 +1541,13 @@ footer{
     background: #83CB2F;
 }
 .pagination-item-prev a{
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -315px -117px;
     width: 8px;
     height: 16px;
 }
 .pagination-item-next a{
-    background: url('../images/Sprite.png');
+    background: url('../images/Sprite.svg');
     background-position: -328px -116px;
     width: 9px;
     height: 17px;

@@ -110,7 +110,11 @@ $(function(){
     $('.burger-btn-close').on('click',function (){
         $('.burger-btn').show();
         $('.burger-btn-close').hide();
-        $('nav').show().removeClass('opened');
+        $('nav').hide().removeClass('opened');
+        $('.navbar-top').hide().removeClass('opened');
+        $('.header-content').hide().removeClass('opened');
+        $('.header-menu').hide();
+        $('body').removeClass('no-scroll')
 
 
     })

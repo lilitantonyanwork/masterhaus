@@ -320,13 +320,13 @@
     .mobile-header .header-logo{
         height: 46px;
         width: 295px;
-        background: url('../images/Sprite.png');
+        background: url('../images/Sprite.svg');
         background-position: 0 0;
     }
     .burger-btn{
         width: 22px;
         height: 22px;
-        background: url('../images/Sprite.png');
+        background: url('../images/Sprite.svg');
         background-position: -369px -84px;
         margin-left: auto;
     }
@@ -525,7 +525,7 @@
     .mobile-header .header-logo{
         width: 142px;
         height: 22px;
-        background-position: -298px 0;
+        background: url('../images/logo-small.svg');
     }
     .banner-title{
         font-size: 23px;
