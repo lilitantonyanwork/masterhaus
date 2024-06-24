@@ -330,8 +330,8 @@
         background-position: -369px -84px;
         margin-left: auto;
     }
-    .header-menu, body nav,body nav form,  .navbar-top{
-        display: none!important;
+    .header-menu, body nav,body nav .header-search-form,  .navbar-top{
+        display: none;
     }
     .mobile-header-right{
         margin-left: auto;
@@ -375,6 +375,111 @@
     }
     .img-bg:before{
         height: 128px;
+    }
+    .why-us-item{
+        width: calc((100% - 20px) / 2);
+    }
+
+    nav.opened{
+        order: 1;
+    }
+    nav.opened .menu-catalog{
+        background: transparent;
+        height: auto;
+        width: 100%;
+        align-items: flex-start;
+        padding-left: 21px;
+    }
+    nav.opened .menu-catalog a{
+        color: #4B4E50;
+        padding-left: 0;
+    }
+    nav.opened .menu-catalog a:before{
+        background-position: -113px -208px;
+        width: 14px;
+        height: 9px;
+        left: auto;
+        right: 42px;
+    }
+    nav.opened .header-menu-item{
+        padding: 21px;
+        border-bottom: 1px solid #DCDCDC;
+        box-sizing: border-box;
+    }
+    .header-menu{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    nav{
+        box-sizing: border-box;
+    }
+    .header-content.opened{
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        top: 102px;
+        z-index: 2;
+        overflow-Y: auto;
+        height: calc(100vh - 102px);
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-top.opened{
+        display: block;
+        order: 2;
+    }
+    .navbar-left{
+        display: none;
+    }
+    .navbar-right{
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 25px;
+        align-items: flex-start;
+        padding-left: 21px;
+    }
+    .call-input{
+        display: flex;
+        width: 322px;
+        height: 60px;
+        padding: 21px 25px;
+        box-sizing: border-box;
+        margin-bottom: 18px;
+    }
+    .navbar-top.opened form{
+        flex-direction: column;
+    }
+    .navbar-top.opened form .btn{
+        width: 322px;
+        height: 71px;
+    }
+    .navbar-top.opened form label{
+        display: block;
+        color: #909090;
+        font-size: 11px;
+        font-family: 'Gilroy-SemiBold', sans-serif;
+        margin-bottom: 6px;
+    }
+    .navbar-working-time:before{
+        width: 28px;
+        height: 28px;
+        background-position: -47px -207px;
+    }
+    .navbar-tel:before{
+        width: 28px;
+        height: 28px;
+        background-position: -78px -207px;
+    }
+    .navbar-whatsapp{
+        text-indent: 1px;
+        font-size: 13px;
+    }
+    .navbar-tel{
+        font-size: 13px;
+    }
+    .navbar-working-time{
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 900px){

@@ -96,4 +96,22 @@ $(function(){
             }
         }
     })
+
+    $('.burger-btn').on('click',function (){
+        $('.burger-btn').hide();
+        $('.burger-btn-close').show();
+        $('nav').show().addClass('opened');
+        $('.navbar-top').show().addClass('opened');
+        $('.header-content').show().addClass('opened');
+        $('.header-menu').show();
+        $('body').addClass('no-scroll')
+
+    })
+    $('.burger-btn-close').on('click',function (){
+        $('.burger-btn').show();
+        $('.burger-btn-close').hide();
+        $('nav').show().removeClass('opened');
+
+
+    })
 })

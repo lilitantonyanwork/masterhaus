@@ -1553,3 +1553,9 @@ footer{
     width: 9px;
     height: 17px;
 }
+.blog-posts .blog-post{
+    width: calc((100% - 68px) / 2);
+}
+.no-scroll{
+    overflow: hidden;
+}
