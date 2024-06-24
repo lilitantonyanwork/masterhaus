@@ -2072,13 +2072,12 @@ footer{
 .dropdown.opened{
     display: flex;
     position: absolute;
-    width: 100%;
+    width: calc(100% - 260px);
     background: #fff;
     z-index: 2;
     top: 206px;
     padding: 41px 89px;
     box-sizing: border-box;
-    max-width: 1660px;
     height: 240px;
     border: 1px solid #F2F2F2;
     border-bottom-left-radius: 20px;
