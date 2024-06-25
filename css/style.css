@@ -1358,10 +1358,10 @@ footer{
     display: flex;
 }
 .search-btn{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     background: url('../images/Sprite.svg');
-    background-position: -305px -25px;
+    background-position: -304px -21px;
     display: flex;
     position: absolute;
     right: 24px;
