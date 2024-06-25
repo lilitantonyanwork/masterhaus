@@ -358,7 +358,12 @@ header{
     max-width: 1130px;
     width: 100%;
     height: 719px;
-    background: url('../images/banner-house.webp') no-repeat;
+    background-image: image-set(
+            url("../images/banner-house.webp") 2x,
+            url("../images/banner-house-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: 50px bottom;
 }
 .owl-theme .owl-nav{
@@ -441,7 +446,9 @@ header{
     display: flex;
     justify-content: center;
 }
-
+.img-bg img{
+    width: 100%;
+}
 .img-bg:before{
     content: '';
     position: absolute;
@@ -691,11 +698,18 @@ header{
     );
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: bottom;
 
 }
 .contract:before{
     content: '';
-    background: url("../images/02.webp");
+    background-image: image-set(
+            url("../images/02.webp") 2x,
+            url("../images/02-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -704,7 +718,13 @@ header{
 }
 .shipping:before{
     content: '';
-    background: url("../images/03.webp");
+    background-image: image-set(
+            url("../images/03.webp") 2x,
+            url("../images/03-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -713,7 +733,13 @@ header{
 }
 .house:before{
     content: '';
-    background: url("../images/04.webp");
+    background-image: image-set(
+            url("../images/04.webp") 2x,
+            url("../images/03-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -722,7 +748,13 @@ header{
 }
 .delivery:before{
     content: '';
-    background: url("../images/05.webp");
+    background-image: image-set(
+            url("../images/05.webp") 2x,
+            url("../images/05-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -731,7 +763,13 @@ header{
 }
 .request:before{
     content: '';
-    background: url("../images/06.webp");
+    background-image: image-set(
+            url("../images/06.webp") 2x,
+            url("../images/06-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -787,7 +825,13 @@ header{
 }
 .why-us-item:first-child:before{
     content: '';
-    background: url("../images/why-us1.webp") no-repeat;
+    background-image: image-set(
+            url("../images/why-us1.webp") 2x,
+            url("../images/why-us1-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 319px;
     height: 249px;
     position: absolute;
@@ -796,7 +840,13 @@ header{
 }
 .why-us-item:nth-child(2):before{
     content: '';
-    background: url("../images/why-us2.webp") no-repeat  ;
+    background-image: image-set(
+            url("../images/why-us2.webp") 2x,
+            url("../images/why-us2-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 271px;
     height: 249px;
     position: absolute;
@@ -805,7 +855,13 @@ header{
 }
 .why-us-item:nth-child(3):before{
     content: '';
-    background: url("../images/why-us3.webp") no-repeat;
+    background-image: image-set(
+            url("../images/why-us3.webp") 2x,
+            url("../images/why-us3-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 284px;
     height: 249px;
     position: absolute;
@@ -814,7 +870,13 @@ header{
 }
 .why-us-item:nth-child(4):before{
     content: '';
-    background: url("../images/why-us4.webp") no-repeat;
+    background-image: image-set(
+            url("../images/why-us4.webp") 2x,
+            url("../images/why-us4-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
     width: 351px;
     height: 249px;
     position: absolute;
@@ -823,7 +885,13 @@ header{
 }
 .why-us-item:nth-child(5):before{
     content: '';
-    background: url("../images/why-us5.webp") no-repeat;
+    background-image: image-set(
+            url("../images/why-us5.webp") 2x,
+            url("../images/why-us5-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 288px;
     height: 249px;
     position: absolute;
@@ -832,7 +900,13 @@ header{
 }
 .why-us-item:nth-child(6):before{
     content: '';
-    background: url("../images/why-us6.webp") no-repeat;
+    background-image: image-set(
+            url("../images/why-us6.webp") 2x,
+            url("../images/why-us6-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 337px;
     height: 249px;
     position: absolute;
@@ -963,7 +1037,12 @@ header{
 .about-right{
     width: 889px;
     height: 661px;
-    background: url('../images/master.webp') no-repeat;
+    background-image: image-set(
+            url("../images/master.webp") 2x,
+            url("../images/master700.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
     background-position: bottom;
 
 }
@@ -1008,7 +1087,13 @@ header{
 }
 .credit:before{
     content: '';
-    background: url('../images/credit-left.webp');
+    background-image: image-set(
+            url("../images/credit-left.webp") 2x,
+            url("../images/credit-left-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 583px;
     height: 552px;
     position: absolute;
@@ -1016,7 +1101,13 @@ header{
 }
 .credit:after{
     content: '';
-    background: url('../images/credit-right.webp');
+    background-image: image-set(
+            url("../images/credit-right.webp") 2x,
+            url("../images/credit-right-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
     width: 636px;
     height: 430px;
     position: absolute;
@@ -1986,7 +2077,12 @@ footer{
 }
 .banner:before{
     content: '';
-    background: url('../images/banner-tree.webp');
+    background-image: image-set(
+            url("../images/banner-tree.webp") 2x,
+            url("../images/banner-tree-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-position: center left;
     width: 271px;
     height: 369px;
     position: absolute;
