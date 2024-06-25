@@ -169,7 +169,10 @@ header{
     width: 26px;
     height: 26px;
     position: absolute;
-    background: url('../images/Sprite.svg');
+    background-image: image-set(
+            url("../images/Sprite2x.svg") 2x,
+            url("../images/Sprite.svg") 1x
+    );
     background-position: -356px -25px;
     left: 0;
 }

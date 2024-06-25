@@ -933,4 +933,10 @@
     .why-us-item{
         height: 173px;
     }
+    .banner-right{
+        height: 282px;
+    }
+    .top-sales:after{
+        display: none;
+    }
 }
