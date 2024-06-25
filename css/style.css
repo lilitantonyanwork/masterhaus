@@ -992,7 +992,10 @@ header{
 }
 .post-left{
     max-width: 400px;
-    width: 100%;
+    width: 100%
+}
+.post-right{
+    width: calc(100% - 425px);
 }
 .post-title{
     font-size: 20px;
