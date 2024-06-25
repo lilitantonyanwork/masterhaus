@@ -664,7 +664,7 @@ header{
 .work-with-us-info >div:nth-child(2n) >span{
     color: #F3F3F3;
 }
-.work-with-us-info h4{
+.work-with-us-info h2{
     color: #fff;
     font-size: 25px;
     font-family: 'Songersemiexpandedbold', sans-serif;
@@ -810,7 +810,7 @@ header{
     position: relative;
     overflow: hidden;
 }
-.why-us-item h4{
+.why-us-item h2{
     font-family: 'Songersemiexpandedbold', sans-serif;
     font-size: 21px;
     line-height: 26px;
