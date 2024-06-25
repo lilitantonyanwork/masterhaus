@@ -283,7 +283,7 @@ header{
     content: '';
     width: 245px;
     height: 240px;
-    background: url('../images/banner-leaf-left.png') no-repeat;
+    background: url('../images/banner-leaf-left.webp') no-repeat;
     position: absolute;
     right: -200px;
     top: 50%;
@@ -291,7 +291,7 @@ header{
 
 }
 .banner-item{
-    background: url('../images/banner.png');
+    background: url('../images/banner.webp');
     background-size: cover;
     display: flex;
     height: 719px;
@@ -302,7 +302,7 @@ header{
     width: 143px;
     height: 240px;
     position: absolute;
-    background: url('../images/banner-leaf.png') no-repeat;
+    background: url('../images/banner-leaf.webp') no-repeat;
 }
 .banner-text{
     max-width: 602px;
@@ -327,13 +327,13 @@ header{
     right: 0;
     top: 0;
     background-image: image-set(
-            url("../images/banner-text-bg-1x.png") 1x,
-            url("../images/banner-text-bg.png") 2x);
+            url("../images/banner-text-bg-1x.webp") 1x,
+            url("../images/banner-text-bg.webp") 2x);
     background-repeat: no-repeat ;
     background-position: right top;
     /*background:*/
 
-    /*        url("../images/banner-text-bg.png") no-repeat;*/
+    /*        url("../images/banner-text-bg.webp") no-repeat;*/
 }
 .banner-text span{
     color: #83CB2F;
@@ -353,7 +353,7 @@ header{
     max-width: 1130px;
     width: 100%;
     height: 719px;
-    background: url('../images/banner-house.png') no-repeat;
+    background: url('../images/banner-house.webp') no-repeat;
     background-position: 50px bottom;
 }
 .owl-theme .owl-nav{
@@ -674,7 +674,7 @@ header{
 }
 .project:before{
     content: '';
-    background: url("../images/01.png");
+    background: url("../images/01.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -683,7 +683,7 @@ header{
 }
 .contract:before{
     content: '';
-    background: url("../images/02.png");
+    background: url("../images/02.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -692,7 +692,7 @@ header{
 }
 .shipping:before{
     content: '';
-    background: url("../images/03.png");
+    background: url("../images/03.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -701,7 +701,7 @@ header{
 }
 .house:before{
     content: '';
-    background: url("../images/04.png");
+    background: url("../images/04.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -710,7 +710,7 @@ header{
 }
 .delivery:before{
     content: '';
-    background: url("../images/05.png");
+    background: url("../images/05.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -719,7 +719,7 @@ header{
 }
 .request:before{
     content: '';
-    background: url("../images/06.png");
+    background: url("../images/06.webp");
     position: absolute;
     right: 0;
     bottom: 0;
@@ -775,7 +775,7 @@ header{
 }
 .why-us-item:first-child:before{
     content: '';
-    background: url("../images/why-us1.png") no-repeat;
+    background: url("../images/why-us1.webp") no-repeat;
     width: 319px;
     height: 249px;
     position: absolute;
@@ -784,7 +784,7 @@ header{
 }
 .why-us-item:nth-child(2):before{
     content: '';
-    background: url("../images/why-us2.png") no-repeat  ;
+    background: url("../images/why-us2.webp") no-repeat  ;
     width: 271px;
     height: 249px;
     position: absolute;
@@ -793,7 +793,7 @@ header{
 }
 .why-us-item:nth-child(3):before{
     content: '';
-    background: url("../images/why-us3.png") no-repeat;
+    background: url("../images/why-us3.webp") no-repeat;
     width: 284px;
     height: 249px;
     position: absolute;
@@ -802,7 +802,7 @@ header{
 }
 .why-us-item:nth-child(4):before{
     content: '';
-    background: url("../images/why-us4.png") no-repeat;
+    background: url("../images/why-us4.webp") no-repeat;
     width: 351px;
     height: 249px;
     position: absolute;
@@ -811,7 +811,7 @@ header{
 }
 .why-us-item:nth-child(5):before{
     content: '';
-    background: url("../images/why-us5.png") no-repeat;
+    background: url("../images/why-us5.webp") no-repeat;
     width: 288px;
     height: 249px;
     position: absolute;
@@ -820,7 +820,7 @@ header{
 }
 .why-us-item:nth-child(6):before{
     content: '';
-    background: url("../images/why-us6.png") no-repeat;
+    background: url("../images/why-us6.webp") no-repeat;
     width: 337px;
     height: 249px;
     position: absolute;
@@ -867,7 +867,7 @@ header{
 }
 .leave-request:before{
     content: '';
-    background: url('../images/request-left.png');
+    background: url('../images/request-left.webp');
     height: 229px;
     width: 140px;
     position: absolute;
@@ -876,7 +876,7 @@ header{
 }
 .leave-request:after{
     content: '';
-    background: url('../images/request-right.png');
+    background: url('../images/request-right.webp');
     height: 229px;
     width: 158px;
     position: absolute;
@@ -951,7 +951,7 @@ header{
 .about-right{
     width: 889px;
     height: 661px;
-    background: url('../images/master.png') no-repeat;
+    background: url('../images/master.webp') no-repeat;
     background-position: bottom;
 
 }
@@ -996,7 +996,7 @@ header{
 }
 .credit:before{
     content: '';
-    background: url('../images/credit-left.png');
+    background: url('../images/credit-left.webp');
     width: 583px;
     height: 552px;
     position: absolute;
@@ -1004,7 +1004,7 @@ header{
 }
 .credit:after{
     content: '';
-    background: url('../images/credit-right.png');
+    background: url('../images/credit-right.webp');
     width: 636px;
     height: 430px;
     position: absolute;
@@ -1269,7 +1269,7 @@ footer{
 }
 .contacts:before{
     content: '';
-    background: url('../images/contact-tree-left.png');
+    background: url('../images/contact-tree-left.webp');
     width: 159px;
     height: 666px;
     position: absolute;
@@ -1309,7 +1309,7 @@ footer{
 }
 .contact-right:before{
     content: '';
-    background: url('../images/contact-leaf.png');
+    background: url('../images/contact-leaf.webp');
     width: 168px;
     height: 107px;
     position: absolute;
@@ -1318,7 +1318,7 @@ footer{
 }
 .contact-right:after{
     content: '';
-    background: url('../images/contact-tree.png');
+    background: url('../images/contact-tree.webp');
     width: 336px;
     height: 123px;
     position: absolute;
@@ -1333,7 +1333,7 @@ footer{
 }
 .contact-form-title:before{
     content: '';
-    background: url('../images/birds.png');
+    background: url('../images/birds.webp');
     width: 119px;
     height: 57px;
     position: absolute;
@@ -1424,7 +1424,7 @@ footer{
 }
 .contacts-map:before{
     content: '';
-    background: url("../images/contact-leaf-right.png");
+    background: url("../images/contact-leaf-right.webp");
     background-size: contain;
     width: 165px;
     height: 192px;
@@ -1631,7 +1631,7 @@ footer{
 }
 .post:before{
     content: '';
-    background: url('../images/contact-tree-left.png');
+    background: url('../images/contact-tree-left.webp');
     width: 159px;
     height: 666px;
     position: absolute;
@@ -1746,7 +1746,7 @@ footer{
     margin-bottom: 130px;
 }
 .leave-request-portfolio:after{
-    background: url('../images/request-left-1.png');
+    background: url('../images/request-left-1.webp');
     width: 255px;
     height: 208px;
 }
@@ -1782,7 +1782,7 @@ footer{
 .offer-item div:before{
     content: '';
     position: absolute;
-    background: url("../images/offer-bg.png");
+    background: url("../images/offer-bg.webp");
     width: 230px;
     height: 161px;
     right: 0;
@@ -1886,7 +1886,7 @@ footer{
     color: #fff;
 }
 .promotion-right{
-    background: url('../images/promotion1.png');
+    background: url('../images/promotion1.webp');
 }
 .promotion-list{
     gap: 20px;
@@ -1927,7 +1927,7 @@ footer{
 }
 .promotion-gray:after{
     content: '';
-    background: url('../images/promotion1.png');
+    background: url('../images/promotion1.webp');
     width: 579px;
     height: 450px;
     right: 0;
@@ -1936,7 +1936,7 @@ footer{
 }
 .promotion-orange:after{
     content: '';
-    background: url('../images/promotion2.png');
+    background: url('../images/promotion2.webp');
     width: 579px;
     height: 450px;
     right: 0;
@@ -1968,13 +1968,13 @@ footer{
     width: 100%;
 }
 .leave-request-promotion:after {
-    background: url('../images/promotion-request-bg.png');
+    background: url('../images/promotion-request-bg.webp');
     width: 257px;
     height: 192px;
 }
 .banner:before{
     content: '';
-    background: url('../images/banner-tree.png');
+    background: url('../images/banner-tree.webp');
     width: 271px;
     height: 369px;
     position: absolute;
@@ -1983,7 +1983,7 @@ footer{
 }
 .what-we-do:before{
     content: '';
-    background: url('../images/leaf-left.png');
+    background: url('../images/leaf-left.webp');
     width: 122px;
     height: 248px;
     position: absolute;
@@ -1992,7 +1992,7 @@ footer{
 }
 .what-we-do:after{
     content: '';
-    background: url('../images/leaf-right.png');
+    background: url('../images/leaf-right.webp');
     width: 160px;
     height: 268px;
     position: absolute;
@@ -2001,7 +2001,7 @@ footer{
 }
 .top-sales:after{
     content: '';
-    background: url('../images/bird-right.png');
+    background: url('../images/bird-right.webp');
     width: 119px;
     height: 57px;
     position: absolute;
@@ -2010,7 +2010,7 @@ footer{
 }
 .top-sales:before{
     content: '';
-    background: url('../images/leaf-left-1.png');
+    background: url('../images/leaf-left-1.webp');
     width: 157px;
     height: 268px;
     position: absolute;
@@ -2019,7 +2019,7 @@ footer{
 }
 .work-with-us:before{
     content: '';
-    background: url('../images/tree-left.png');
+    background: url('../images/tree-left.webp');
     width: 187px;
     height: 629px;
     position: absolute;
@@ -2028,7 +2028,7 @@ footer{
 }
 .review:before{
     content: '';
-    background: url('../images/banner-tree.png');
+    background: url('../images/banner-tree.webp');
     width: 271px;
     height: 369px;
     position: absolute;
@@ -2037,7 +2037,7 @@ footer{
 }
 .why-us:before{
     content: '';
-    background: url('../images/tree-left.png');
+    background: url('../images/tree-left.webp');
     width: 187px;
     height: 629px;
     position: absolute;
@@ -2049,7 +2049,7 @@ footer{
 
 .blog .content:after{
     content: '';
-    background: url('../images/bird-right.png');
+    background: url('../images/bird-right.webp');
     width: 119px;
     height: 57px;
     position: absolute;
@@ -2058,7 +2058,7 @@ footer{
 }
 .about:after{
     content: '';
-    background: url('../images/bird-right.png');
+    background: url('../images/bird-right.webp');
     width: 119px;
     height: 57px;
     position: absolute;
