@@ -997,6 +997,9 @@ header{
     max-width: 400px;
     width: 100%
 }
+.post-left img{
+    aspect-ratio: auto 400 / 298;
+}
 .post-right{
     width: calc(100% - 425px);
 }
