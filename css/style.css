@@ -2107,3 +2107,134 @@ footer{
     height: 112px;
     flex-flow: column wrap;
 }
+.review-page{
+    padding-right: 130px;
+    padding-left: 130px;
+    margin-bottom: 130px;
+}
+
+.review-list-content{
+   gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.review-list-content .review-item{
+    width: calc((100% - 40px) / 3);
+    margin: 0;
+}
+.blog-review .content:after{
+    display: none;
+}
+.review-action{
+    padding: 16px 20px ;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: -1px 9px 10px #c4c4c447;
+}
+.review-action .btn{
+    max-width: 390px;
+    width: 100%;
+}
+.review-action .btn-white{
+    background: #F7F7F7;
+    font-size: 13px;
+
+}
+
+.review-page .section-title{
+    margin-top: 38px;
+}
+.review-list-content  .review-item-youtube{
+    width: calc((100% - 60px) / 4);
+    min-height: 404px;
+    padding: 0;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+.review-video {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.review-video:before{
+    content: '';
+    background: url('../images/Sprite.svg');
+    background-position: 0 -246px;
+    width: 74px;
+    height: 52px;
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+.review-item-youtube h4{
+    font-size: 23px;
+    line-height: 30px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+    margin-bottom: 7px;
+}
+.review-item-youtube p{
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Gilroy-Medium', sans-serif ;
+   color: #909090;
+}
+.review-img {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.review-list-content  .review-item-write{
+    height: 465px;
+    width: calc((100% - 60px) / 4);
+    background: #EEEEEE;
+    border-radius: 10px;
+    position: relative;
+}
+.review-list-content  .review-item-write:before{
+    content: '';
+    width: 37px;
+    height: 37px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: url('../images/Sprite.svg');
+    background-position: -79px -246px;
+}
+.accordion-closed{
+    display: none;
+}
+
+.vacancy{
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-bottom: 130px;
+}
+
+.accordion-item{
+    padding-top: 23px;
+    padding-bottom: 24px;
+    border-top: 1px solid #C6C6C6;
+}
+.accordion-title h4{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Songersemiexpandedbold', sans-serif;
+}
+.accordion-btn{
+    width: 49px;
+    height: 49px;
+    display: flex;
+    position: relative;
+    border-radius: 100%;
+    background: #F7F7F7;
+}
