@@ -679,12 +679,19 @@ header{
 }
 .project:before{
     content: '';
-    background: url("../images/01.webp");
+
     position: absolute;
     right: 0;
     bottom: 0;
     width: 382px;
     height: 298px;
+    background-image: image-set(
+            url("../images/01.webp") 2x,
+            url("../images/01-1x.webp") 1x
+    );
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 .contract:before{
     content: '';
